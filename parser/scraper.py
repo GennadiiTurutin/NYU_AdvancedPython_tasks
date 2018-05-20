@@ -2,6 +2,7 @@
 # coding: utf-8
 
 import flask
+import jinja2
 
 app = flask.Flask(__name__)  # a Flask object
 
