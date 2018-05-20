@@ -7,4 +7,4 @@ We have pertaining images of these products.
 The goal is to build Flask application, which will do the following: 
 
 /plist - display all products in the database 
-/pview?prod_id=21660  - dislay product with id 21660 (you mau choose any id)
+/pview?prod_id=21660  - dislay product with id 21660 (you may choose any id)
