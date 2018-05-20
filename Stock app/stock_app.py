@@ -1,8 +1,6 @@
 
 # coding: utf-8
 
-# In[100]:
-
 import urllib.request
 import datetime as dt
 import matplotlib.pyplot as plt
