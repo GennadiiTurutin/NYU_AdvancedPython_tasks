@@ -1,0 +1,8 @@
+<table class="table">
+{% for product in product_list %}
+ <tr>
+   <td><A HREF="{{ url_for('view_product', prod_id=product.id) }}">{{product.id}}</A></td>
+   <td>{{ product.name }}</td>
+ </tr>
+{% endfor %}
+</table>
