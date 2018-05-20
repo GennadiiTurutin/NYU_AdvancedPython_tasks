@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>{{ title }}</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="static/css/bootstrap.min.css">
+    <script src="static/css/Bootstrap/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>{{ title }}</h1>
+      <h3>by {{ author }} ({{ date }})</h3>
+      <hr>
+
+      {% for par in paragraphs %}
+        <p>{{ par }}</p>
+
+      {% endfor %}
+
+      {% for img_fname in images %}
+        <p><img src="{{ img_fname }}"></p>
+
+      {% endfor %}
+
+    </div>
+  </body>
+</html>
