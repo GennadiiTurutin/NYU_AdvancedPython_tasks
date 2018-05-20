@@ -1,6 +1,6 @@
-Author: Gennadii Turutin
+Author of the program : Gennadii Turutin
 
-Assignment description: 
+Assignment description by David Blaikie: 
 date_simple.py contains functions for working with dates. 
 The motivation for the module is to simplify the interface to Python's datetime module 
 (which is simply designed, but still requires studying and remembering specialized syntax). 
